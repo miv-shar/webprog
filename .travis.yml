@@ -1,0 +1,9 @@
+language: generic
+deploy:
+  provider: s3
+  access_key_id: AKIAIMPCV2BASVLLZZYQ
+  secret_access_key: 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
+  bucket: koloskov.webprog
+  on:
+    repo: Carterochka/webprog
+  acl: public_read
