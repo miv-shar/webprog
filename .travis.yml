@@ -7,3 +7,4 @@ deploy:
   on:
     repo: Carterochka/webprog
   acl: public_read
+  region: us-east-2
