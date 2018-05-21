@@ -24,7 +24,6 @@
 }
 
 .three{
-    width: 100%;
     background: aquamarine;
 }
 
@@ -36,13 +35,15 @@
 }
 
 .five{
-    width: 50%;
     background: darkcyan;
 }
 
 .six{
-    width: 50%;
     background: deeppink;
+}
+
+.five, .six {
+    width: 50%;
 }
 
 .seven{
@@ -51,11 +52,30 @@
     background: aqua;
 }
 
-.line-1, .line-2, .line-3, .blocks-5-6 {
+.line-1, .line-2, .line-3 {
     display: flex;
     flex-direction: row;
 }
 
+.blocks-5-6{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
 .blocks-3-5-6{
+    display: flex;
     width: 100%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 900px){
+    .line-2{
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
