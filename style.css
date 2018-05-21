@@ -12,6 +12,7 @@
 
 .three{
     padding-bottom: 14px;
+    text-align: center;
 }
 
 .one{
@@ -40,10 +41,12 @@
 
 .five{
     background: darkcyan;
+    text-align: center;
 }
 
 .six{
     background: deeppink;
+    text-align: center;
 }
 
 .five, .six {
