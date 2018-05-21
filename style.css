@@ -85,7 +85,10 @@
         flex-direction: column;
         -ms-flex-direction: column;
         -webkit-flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
+        flex-wrap: nowrap;
+    }
+    .five, .six{
+        width: auto;
     }
 }
